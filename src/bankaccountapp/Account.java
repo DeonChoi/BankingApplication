@@ -61,11 +61,10 @@ public abstract class Account implements IBaseRate{
         System.out.println("Your balance is now $" + this.balance);
     }
 
-    public void showInfo(String accountType){
+    public void showInfo(){
         System.out.println("Name: " + name);
         System.out.println("Account Number: " + this.accountNumber);
         System.out.println("SSN: " + ssn);
         System.out.println("Balance: $" + this.balance);
-        System.out.println("Account Type: " + accountType);
     }
 }
